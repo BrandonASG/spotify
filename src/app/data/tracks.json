@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "_id": 1,
+            "name": "La Santa",
+            "album": "YHLQMDLG",
+            "cover": "",
+            "artist": {
+                "name": "Bad Bunny",
+                "nickname": "Bad Bunnt",
+                "countr": "PR"
+            },
+            "duration": {
+                "start": 0,
+                "end": 333
+            },
+            "url": "http://localhost:3000/track.mp3"
+        }
+    ]
+}
