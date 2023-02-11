@@ -1,20 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponents } from './components/test/test.component';
+import { ExampleComponent } from './example/example.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TestComponents
+  declarations: [ //TODO: Pueden ser Declarations, Components, Directives, Pipes
+    AppComponent, ExampleComponent
   ],
-  imports: [
-    HttpClientModule,
-    CommonModule,
+  imports: [ //TODO: Solo se importan otro modules
     BrowserModule,
     AppRoutingModule
   ],
